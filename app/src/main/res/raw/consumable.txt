@@ -1,0 +1,9 @@
+Healing Potion
+Mana Potion
+Multi Potion
+Ward
+Sentry Ward
+Potion of Physical Might
+Potion of Magical Might
+Elixir of Defense
+Elixir of Power

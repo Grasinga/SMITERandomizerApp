@@ -1,0 +1,109 @@
+ASI
+Ancile
+Bancroft's Talon
+Blink
+Bloodforge
+Bluestone Pendant
+Book of Thoth
+Brawler's Beat Stick
+Breastplate of Valor
+Bulwark of Hope
+Bumba's Mask
+Celestial Legion Helm
+Chronos' Pendant
+Curse
+Death's Toll
+Deathbringer
+Demonic Grip
+Devourer's Gauntlet
+Divine Ruin
+Doom Orb
+Dynasty Plate Helm
+Elixir of Defense
+Elixir of Power
+Emperor's Armor
+Ethereal Staff
+Frenzy
+Frostbound Hammer
+Gauntlet of Thebes
+Gem of Isolation
+Genji's Guard
+Hastened Fatalis
+Healing Potion
+Heartseeker
+Heartward Amulet
+Hide of the Nemean Lion
+Hide of the Urchin
+Hydra's Lament
+Ichaival
+Jotunn's Wrath
+Lotus Crown
+Magi's Blessing
+Mail of Renewal
+Malice
+Mana Potion
+Mantle of Discord
+Mark of the Vanguard
+Masamune
+Meditation
+Midgardian Mail
+Multi Potion
+Mystical Mail
+Ninja Tabi
+Obsidian Shard
+Odysseus' Bow
+Oni Hunter's Garb
+Pestilence
+Polynomicon
+Potion of Magical Might
+Potion of Physical Might
+Purification
+Pythagorem's Piece
+Qin's Sais
+Rage
+Reinforced Greaves
+Reinforced Shoes
+Ritual Dagger
+Rod of Asclepius
+Rod of Tahuti
+Runeforged Hammer
+Runic Sheild
+Sanctuary
+Scout
+Sentry Ward
+Shell
+Shield of Regrowth
+Shifter's Shield
+Shoes of Focus
+Shoes of the Magi
+Soul Eater
+Soul Reaver
+Soul Stone
+Sovereignty
+Spear of Desolation
+Spear of the Magus
+Spectral Armor
+Spirit Robe
+Sprint
+Stone Cutting Sword
+Stone of Gaia
+Sunder
+Talaria Boots
+Teleport
+Telkhines Ring
+The Crusher
+The Executioner
+Titan's Bane
+Transcendence
+Travelers Shoes
+Vampiric Shroud
+Void Shield
+Void Stone
+Ward
+Warlock's Sash
+Warrior Tabi
+Watcher's Gift
+Wind Demon
+Winged Blade
+Witchblade
+Wrath

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.grasinga.smiterandomizer.Customize"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="God:"
+                android:id="@+id/godTextView"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <Spinner
+                android:id="@+id/godSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="God Type:"
+                android:id="@+id/gotTypeTextViewer"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <Spinner
+                android:id="@+id/godTypeSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="God Class:"
+                android:id="@+id/godClassTextViewer"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <Spinner
+                android:id="@+id/godClassSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Specify Item Types:"
+            android:id="@+id/specifyTextView"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Offensive"
+                    android:id="@+id/offensiveCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Power"
+                    android:id="@+id/powerCheckBox"
+                    android:layout_below="@+id/offensiveCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attack Speed"
+                    android:id="@+id/attackSpeedCheckBox"
+                    android:layout_below="@+id/powerCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lifesteal"
+                    android:id="@+id/lifeStealCheckBox"
+                    android:layout_below="@+id/attackSpeedCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Penetration"
+                    android:id="@+id/penetrationCheckBox"
+                    android:layout_below="@+id/lifeStealCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crit Chance"
+                    android:id="@+id/critChanceCheckBox"
+                    android:layout_below="@+id/penetrationCheckBox" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Defensive"
+                    android:id="@+id/defensiveCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Physical"
+                    android:id="@+id/physicalCheckBox"
+                    android:layout_below="@+id/defensiveCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Magical"
+                    android:id="@+id/magicalCheckBox"
+                    android:layout_below="@+id/physicalCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health"
+                    android:id="@+id/healthCheckBox"
+                    android:layout_below="@+id/magicalCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HP5"
+                    android:id="@+id/hp5CheckBox"
+                    android:layout_below="@+id/healthCheckBox" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Utility"
+                    android:id="@+id/utilityCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aura"
+                    android:id="@+id/auraCheckBox"
+                    android:layout_below="@+id/utilityCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Movement"
+                    android:id="@+id/movementCheckBox"
+                    android:layout_below="@+id/auraCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cooldown%"
+                    android:id="@+id/cooldownCheckBox"
+                    android:layout_below="@+id/movementCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mana"
+                    android:id="@+id/manaCheckBox"
+                    android:layout_below="@+id/cooldownCheckBox" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MP5"
+                    android:id="@+id/mp5CheckBox"
+                    android:layout_below="@+id/manaCheckBox" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Starter Item"
+                android:id="@+id/starterItemCheckBox"
+                android:background="@color/white"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Random Relics"
+                android:id="@+id/randomRelicsCheckBox"
+                android:background="@color/white"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Always Boots"
+                android:id="@+id/bootsCheckBox"
+                android:background="@color/white"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submitButton"
+            android:layout_gravity="center_horizontal"
+            android:onClick="getGodBuild"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

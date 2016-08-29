@@ -1,0 +1,12 @@
+Blink
+Curse
+Frenzy
+Meditation
+Purification
+Sanctuary
+Scout
+Shell
+Sprint
+Sunder
+Teleport
+Wrath
