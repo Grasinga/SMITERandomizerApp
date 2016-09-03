@@ -3,6 +3,8 @@ package net.grasinga.smiterandomizer;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -23,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
 
         if(!build.equalsIgnoreCase(""))
             runRandom();
+
+        TextView textView =(TextView)findViewById(R.id.patchNotes);
+        textView.setClickable(true);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+        String text = "<a href='http://grasinga.net/files/others/SMITE/history.html'>Patch Notes</a>";
+        textView.setText(Html.fromHtml(text));
 
         Button randomButton = (Button)findViewById(R.id.randomButton);
         Button customizeButton = (Button)findViewById(R.id.customizeButton);

@@ -2,7 +2,10 @@
     <string name="app_name">SMITE Randomizer</string>
     <string name="random">Random</string>
     <string name="customize">Customize</string>
-    <string name="nthe_smite_randomizer_creates_randomized_god_builds_n_nrandom_button_this_button_creates_a_randomized_build_without_specifications_n_ncustomize_button_this_button_creates_a_randomized_build_that_can_specifiy_types_of_items_instead_of_having_all_of_the_items_being_randomized">\nThe SMITE Randomizer creates randomized god builds.\n\nRandom Button: This button creates a randomized build without specifications.\n\nCustomize Button: This button creates a randomized build that can specifiy types of items instead of having all of the items being randomized.</string>
+    <string name="nthe_smite_randomizer_creates_randomized_god_builds_n_nrandom_button_this_button_creates_a_randomized_build_without_specifications_n_ncustomize_button_this_button_creates_a_randomized_build_that_can_specifiy_types_of_items_instead_of_having_all_of_the_items_being_randomized">\nThe SMITE Randomizer creates randomized god builds.\n\n
+        Random Button: This button creates a randomized build without specifications.\n\n
+        Customize Button: This button creates a randomized build that can specifiy types of items instead of having all of the items being randomized.
+    </string>
     <string name="god">God:</string>
     <string name="god_type">God Type:</string>
     <string name="god_class">God Class:</string>

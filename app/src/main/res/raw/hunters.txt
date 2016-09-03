@@ -5,6 +5,7 @@ Artemis
 Chiron
 Cupid
 Hou Yi
+Izanami
 Jing Wei
 Medusa
 Neith

@@ -11,21 +11,43 @@
     tools:context="net.grasinga.smiterandomizer.MainActivity"
     android:background="@color/black">
 
-    <Button
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/random"
-        android:id="@+id/randomButton"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"/>
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/customize"
-        android:id="@+id/customizeButton"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/random"
+            android:id="@+id/randomButton"
+            android:padding="15dp"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Patch Notes"
+            android:id="@+id/patchNotes"
+            android:textColor="#FFFFFF"
+            android:layout_above="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:padding="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/customize"
+            android:id="@+id/customizeButton"
+            android:padding="15dp"
+            android:textSize="13dp" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,7 +57,7 @@
         android:id="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/customizeButton"
-        android:layout_below="@+id/randomButton"
-        android:background="@color/white"/>
+        android:background="@color/white"
+        android:layout_below="@+id/linearLayout2" />
+
 </RelativeLayout>
