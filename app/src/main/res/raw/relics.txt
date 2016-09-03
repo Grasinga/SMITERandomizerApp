@@ -2,6 +2,7 @@ Blink
 Curse
 Frenzy
 Meditation
+Phantom
 Purification
 Sanctuary
 Scout
@@ -9,4 +10,5 @@ Shell
 Sprint
 Sunder
 Teleport
+Thorns
 Wrath
